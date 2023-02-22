@@ -16,7 +16,7 @@ class WeatherApi extends Controller
         $cityName = $request->input('city');
 
 
-        $apiKey = "e76a1ef608701011dc18bd64f739c563";
+        $apiKey = "inset_your_api_key_from_your_open_weather_profile";
 
         $response = Http::get("http://api.openweathermap.org/geo/1.0/direct?", [
             "q" => $cityName,
