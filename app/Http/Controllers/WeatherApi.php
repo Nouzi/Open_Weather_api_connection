@@ -1,5 +1,7 @@
 <?php
 
+
+dadsa
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -14,7 +16,7 @@ class WeatherApi extends Controller
 
 
         $cityName = $request->input('city');
-
+        $apiKey =
 
         $apiKey = "inset_your_api_key_from_your_open_weather_profile";
 
